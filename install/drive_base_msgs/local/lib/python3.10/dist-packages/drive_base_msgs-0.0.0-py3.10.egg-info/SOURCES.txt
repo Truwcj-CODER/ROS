@@ -1,1 +1,0 @@
-/home/trucnv/Documents/robot_dev/linorobot2_ws/build/drive_base_msgs/ament_cmake_python/drive_base_msgs/drive_base_msgs.egg-info/SOURCES.txt

@@ -1,1 +1,0 @@
-/home/trucnv/Documents/robot_dev/linorobot2_ws/build/drive_base_msgs/rosidl_generator_c/drive_base_msgs/msg/trv_command.h

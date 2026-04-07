@@ -1,9 +1,0 @@
-/home/trucnv/Documents/robot_dev/linorobot2_ws/build/linorobot2_navigation/CMakeFiles/uninstall.dir
-/home/trucnv/Documents/robot_dev/linorobot2_ws/build/linorobot2_navigation/CMakeFiles/linorobot2_navigation_uninstall.dir
-/home/trucnv/Documents/robot_dev/linorobot2_ws/build/linorobot2_navigation/CMakeFiles/test.dir
-/home/trucnv/Documents/robot_dev/linorobot2_ws/build/linorobot2_navigation/CMakeFiles/edit_cache.dir
-/home/trucnv/Documents/robot_dev/linorobot2_ws/build/linorobot2_navigation/CMakeFiles/rebuild_cache.dir
-/home/trucnv/Documents/robot_dev/linorobot2_ws/build/linorobot2_navigation/CMakeFiles/list_install_components.dir
-/home/trucnv/Documents/robot_dev/linorobot2_ws/build/linorobot2_navigation/CMakeFiles/install.dir
-/home/trucnv/Documents/robot_dev/linorobot2_ws/build/linorobot2_navigation/CMakeFiles/install/local.dir
-/home/trucnv/Documents/robot_dev/linorobot2_ws/build/linorobot2_navigation/CMakeFiles/install/strip.dir

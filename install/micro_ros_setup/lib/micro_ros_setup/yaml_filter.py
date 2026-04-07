@@ -1,1 +1,0 @@
-/home/trucnv/Documents/robot_dev/linorobot2_ws/src/micro_ros_setup/scripts/yaml_filter.py

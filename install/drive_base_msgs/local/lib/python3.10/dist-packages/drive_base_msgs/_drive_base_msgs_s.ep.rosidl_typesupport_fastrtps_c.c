@@ -1,1 +1,0 @@
-/home/trucnv/Documents/robot_dev/linorobot2_ws/build/drive_base_msgs/rosidl_generator_py/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
