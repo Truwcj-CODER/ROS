@@ -1,20 +1,24 @@
 services:
   linorobot2_brain:
-    build: .                           
-    image: linorobot2_humble:latest
-    container_name: linorobot2_ws      
-    network_mode: "host"             
+    image: ${ACTIVE_IMAGE}
+    container_name: linorobot2_ws
+    network_mode: "host"
     privileged: true
+    runtime: ${ACTIVE_RUNTIME}
     init: true
 
+    environment:
+      - LINOROBOT2_BASE=${LINOROBOT2_BASE}
+      - LINOROBOT2_LASER_SENSOR=${LINOROBOT2_LASER_SENSOR}
+
     volumes:
-      - /home/trucnv/Documents/linorobot2_ws:/root/linorobot2_ws
+      - ${ACTIVE_VOLUME}:/root/linorobot2_ws
       - /dev:/dev
 
     devices:
-      - "/dev/ttyACM0:/dev/ttyACM0"  
-      - "/dev/ttyUSB0:/dev/ttyUSB0" 
+      - "/dev/ttyACM0:/dev/ttyACM0"
+      - "/dev/ttyUSB0:/dev/ttyUSB0"
 
-    stdin_open: true                  
-    tty: true                         
-    restart: unless-stopped           
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
