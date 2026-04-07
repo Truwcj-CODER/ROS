@@ -1,0 +1,408 @@
+/* ── iOS system tokens — dark (default) ─────────────────────────────────────── */
+:root,
+html[data-theme="dark"] {
+  --bg:        #000000;
+  --surface:   #1C1C1E;
+  --surface2:  #2C2C2E;
+  --surface3:  #3A3A3C;
+  --sep:       rgba(84,84,88,0.55);
+  --lbl:       #FFFFFF;
+  --lbl2:      rgba(235,235,245,0.60);
+  --lbl3:      rgba(235,235,245,0.30);
+  --panel-bg:  rgba(28,28,30,0.94);
+  --map-bg:    #080808;
+}
+
+/* ── Light mode ─────────────────────────────────────────────────────────────── */
+html[data-theme="light"] {
+  --bg:        #F2F2F7;
+  --surface:   #FFFFFF;
+  --surface2:  #EFEFF4;
+  --surface3:  #E5E5EA;
+  --sep:       rgba(60,60,67,0.18);
+  --lbl:       #000000;
+  --lbl2:      rgba(60,60,67,0.60);
+  --lbl3:      rgba(60,60,67,0.30);
+  --panel-bg:  rgba(242,242,247,0.94);
+  --map-bg:    #E8E8ED;
+}
+
+/* ── Shared color tokens (same in both modes) ────────────────────────────────── */
+:root {
+  --blue:      #0A84FF;
+  --green:     #30D158;
+  --red:       #FF453A;
+  --orange:    #FF9F0A;
+  --gray:      #636366;
+  --left-w:    195px;
+  --right-w:   195px;
+  --radius:    12px;
+  --radius-sm: 9px;
+  --font:      -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif;
+}
+
+/* ── Reset ──────────────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  height: 100%;
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--lbl);
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+}
+
+/* ── 3-column layout ─────────────────────────────────────────────────────────
+   [left controls] [map — flex:1] [right waypoints]
+   ──────────────────────────────────────────────── */
+body { display: flex; }
+
+/* ── Shared panel styles ────────────────────────────────────────────────────── */
+aside {
+  height: 100vh;
+  background: var(--panel-bg);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 16px 13px 18px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  flex-shrink: 0;
+}
+aside::-webkit-scrollbar { width: 3px; }
+aside::-webkit-scrollbar-thumb { background: var(--surface3); border-radius: 2px; }
+
+/* ── Left panel ─────────────────────────────────────────────────────────────── */
+#panel-left {
+  width: var(--left-w);
+  border-right: 0.5px solid var(--sep);
+}
+
+/* ── Right panel ─────────────────────────────────────────────────────────────── */
+#panel-right {
+  width: var(--right-w);
+  border-left: 0.5px solid var(--sep);
+}
+
+/* ── Panel header ────────────────────────────────────────────────────────────── */
+.panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 0.5px solid var(--sep);
+  flex-shrink: 0;
+}
+.app-title {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  color: var(--lbl);
+}
+.app-icon {
+  width: 20px; height: 20px;
+  color: var(--blue);
+  flex-shrink: 0;
+}
+
+/* ── Connection dot ─────────────────────────────────────────────────────────── */
+.conn-indicator {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--gray);
+  transition: background 0.4s;
+  flex-shrink: 0;
+}
+.conn-indicator.online  { background: var(--green); box-shadow: 0 0 6px rgba(48,209,88,0.6); }
+.conn-indicator.offline { background: var(--red); }
+
+/* ── Cards ──────────────────────────────────────────────────────────────────── */
+.card {
+  background: var(--surface2);
+  border-radius: var(--radius);
+  padding: 11px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex-shrink: 0;
+}
+.card-label {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  color: var(--lbl3);
+}
+
+/* ── Status badge ───────────────────────────────────────────────────────────── */
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  width: fit-content;
+  transition: all 0.3s ease;
+}
+.status-badge.idle       { background: rgba(99,99,102,0.22);  color: var(--lbl2); }
+.status-badge.navigating { background: rgba(48,209,88,0.15);  color: var(--green); }
+.status-badge.returning  { background: rgba(255,159,10,0.15); color: var(--orange); }
+
+.badge-dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--gray);
+  flex-shrink: 0;
+}
+.status-badge.navigating .badge-dot,
+.status-badge.returning  .badge-dot { animation: pulse-dot 1.4s ease-in-out infinite; }
+.status-badge.navigating .badge-dot { background: var(--green); }
+.status-badge.returning  .badge-dot { background: var(--orange); }
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.4; transform: scale(0.7); }
+}
+
+/* ── Progress bar ───────────────────────────────────────────────────────────── */
+.nav-progress { display: flex; flex-direction: column; gap: 5px; }
+.progress-track {
+  height: 3px;
+  background: var(--surface3);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  background: var(--green);
+  border-radius: 2px;
+  transition: width 0.5s cubic-bezier(0.4,0,0.2,1);
+  width: 0%;
+}
+.progress-label { font-size: 10px; color: var(--lbl3); font-variant-numeric: tabular-nums; }
+
+/* ── Loop toggle ─────────────────────────────────────────────────────────────── */
+.toggle-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.toggle-text { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.toggle-title { font-size: 13px; font-weight: 500; color: var(--lbl); }
+.toggle-sub   { font-size: 10px; color: var(--lbl3); }
+
+.ios-toggle { position: relative; cursor: pointer; flex-shrink: 0; }
+.ios-toggle input { display: none; }
+.ios-toggle-track {
+  display: block;
+  width: 44px; height: 26px;
+  background: var(--surface3);
+  border-radius: 13px;
+  transition: background 0.25s ease;
+  position: relative;
+}
+.ios-toggle input:checked ~ .ios-toggle-track { background: var(--green); }
+.ios-toggle-thumb {
+  position: absolute;
+  top: 2px; left: 2px;
+  width: 22px; height: 22px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+  transition: transform 0.28s cubic-bezier(0.34,1.56,0.64,1);
+}
+.ios-toggle input:checked ~ .ios-toggle-track .ios-toggle-thumb { transform: translateX(18px); }
+
+/* ── Spacer ──────────────────────────────────────────────────────────────────── */
+.spacer { flex: 1; }
+
+/* ── Action buttons ──────────────────────────────────────────────────────────── */
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transition: opacity 0.15s, transform 0.1s;
+  -webkit-tap-highlight-color: transparent;
+  flex-shrink: 0;
+}
+.btn svg { width: 15px; height: 15px; flex-shrink: 0; }
+.btn:hover  { opacity: 0.88; }
+.btn:active { transform: scale(0.97); opacity: 0.75; }
+
+.btn-go    { background: var(--green); color: #fff; }
+.btn-stop  { background: var(--red);   color: #fff; }
+.btn-clear { background: var(--surface2); color: var(--lbl2); font-size: 13px; padding: 10px; }
+
+/* ── Hint ────────────────────────────────────────────────────────────────────── */
+.hint { font-size: 10px; color: var(--lbl3); text-align: center; line-height: 1.5; }
+
+/* ── Map area ────────────────────────────────────────────────────────────────── */
+#map-wrap {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--map-bg);
+  overflow: hidden;
+  position: relative;
+  min-width: 0;
+}
+canvas { cursor: crosshair; display: block; }
+
+/* ── No-map placeholder ─────────────────────────────────────────────────────── */
+#no-map {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: var(--lbl3);
+  text-align: center;
+}
+#no-map p    { font-size: 16px; font-weight: 500; color: var(--lbl2); }
+#no-map span { font-size: 12px; color: var(--lbl3); }
+
+/* ── Waypoint count badge ───────────────────────────────────────────────────── */
+.wp-count-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 6px;
+  background: var(--blue);
+  color: #fff;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+/* ── Waypoint list (right panel) ────────────────────────────────────────────── */
+.wp-empty {
+  font-size: 12px;
+  color: var(--lbl3);
+  text-align: center;
+  padding: 24px 0 8px;
+  line-height: 1.6;
+}
+
+.wp-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 4px;
+  border-bottom: 0.5px solid var(--sep);
+  border-radius: var(--radius-sm);
+  transition: background 0.2s;
+}
+.wp-item:last-child { border-bottom: none; }
+.wp-item.active     { background: rgba(10,132,255,0.09); }
+.wp-item.home-active { background: rgba(255,159,10,0.09); }
+
+.wp-num {
+  width: 22px; height: 22px;
+  border-radius: 50%;
+  background: var(--surface3);
+  color: var(--lbl2);
+  font-size: 10px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.wp-num.home                { background: var(--blue);   color: #fff; }
+.wp-item.active   .wp-num   { background: var(--green);  color: #fff; }
+.wp-item.home-active .wp-num{ background: var(--orange); color: #fff; }
+
+.wp-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+}
+.wp-label {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--lbl);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.wp-coord {
+  font-size: 10px;
+  color: var(--lbl3);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.wp-del {
+  background: none;
+  border: none;
+  color: var(--red);
+  font-size: 17px;
+  cursor: pointer;
+  padding: 2px 3px;
+  line-height: 1;
+  border-radius: 50%;
+  transition: background 0.15s;
+  flex-shrink: 0;
+}
+.wp-del:hover { background: rgba(255,69,58,0.12); }
+
+/* ── Icon button (theme toggle) ─────────────────────────────────────────────── */
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--lbl2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  padding: 4px;
+  transition: background 0.15s, color 0.15s;
+  flex-shrink: 0;
+}
+.icon-btn:hover  { background: var(--surface3); color: var(--lbl); }
+.icon-btn:active { transform: scale(0.92); }
+.icon-btn svg    { width: 16px; height: 16px; }
+
+/* ── Scrollbar ─────────────────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--surface3); border-radius: 2px; }
+
+/* ── Initial pose button ────────────────────────────────────────────────────── */
+.btn-pose {
+  background: var(--surface2);
+  color: var(--orange);
+  border: 1px solid rgba(255,159,10,0.3);
+  font-size: 13px;
+  padding: 10px;
+}
+.btn-pose.active {
+  background: rgba(255,159,10,0.18);
+  border-color: var(--orange);
+}

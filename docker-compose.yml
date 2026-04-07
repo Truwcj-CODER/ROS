@@ -1,0 +1,20 @@
+services:
+  linorobot2_brain:
+    build: .                           
+    image: linorobot2_humble:latest
+    container_name: linorobot2_ws      
+    network_mode: "host"             
+    privileged: true
+    init: true
+
+    volumes:
+      - /home/trucnv/Documents/linorobot2_ws:/root/linorobot2_ws
+      - /dev:/dev
+
+    devices:
+      - "/dev/ttyACM0:/dev/ttyACM0"  
+      - "/dev/ttyUSB0:/dev/ttyUSB0" 
+
+    stdin_open: true                  
+    tty: true                         
+    restart: unless-stopped           

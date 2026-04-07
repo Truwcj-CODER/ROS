@@ -1,0 +1,1 @@
+/home/trucnv/Documents/robot_dev/linorobot2_ws/sllidar_ros2/launch/view_sllidar_a3_launch.py

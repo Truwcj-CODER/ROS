@@ -1,0 +1,1 @@
+/home/trucnv/Documents/robot_dev/linorobot2_ws/build/linorobot2/ament_cmake_environment_hooks/local_setup.zsh

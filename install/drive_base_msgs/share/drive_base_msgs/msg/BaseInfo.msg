@@ -1,0 +1,1 @@
+/home/trucnv/Documents/robot_dev/linorobot2_ws/src/uros/drive_base/drive_base_msgs/msg/BaseInfo.msg

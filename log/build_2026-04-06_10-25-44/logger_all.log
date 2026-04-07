@@ -1,0 +1,469 @@
+[0.078s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'micro_ros_msgs', 'micro_ros_agent'][0m
+[0.078s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['micro_ros_msgs', 'micro_ros_agent'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x744985f063b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x744985f05cf0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x744985f05cf0>>)[0m
+[0.246s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.246s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.246s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.246s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.246s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.246s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.247s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/trucnv/Documents/robot_dev/linorobot2_ws'
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(sllidar_ros2) by extension 'ignore'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(sllidar_ros2) by extension 'ignore_ament_install'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(sllidar_ros2) by extensions ['colcon_pkg']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(sllidar_ros2) by extension 'colcon_pkg'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(sllidar_ros2) by extensions ['colcon_meta']
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(sllidar_ros2) by extension 'colcon_meta'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(sllidar_ros2) by extensions ['ros']
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(sllidar_ros2) by extension 'ros'
+[0.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'[0m
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2) by extension 'ignore'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2) by extension 'ignore_ament_install'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2) by extensions ['colcon_pkg']
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2) by extension 'colcon_pkg'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2) by extensions ['colcon_meta']
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2) by extension 'colcon_meta'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2) by extensions ['ros']
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2) by extension 'ros'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2) by extensions ['cmake', 'python']
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2) by extension 'cmake'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2) by extension 'python'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2) by extensions ['python_setup_py']
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2) by extension 'python_setup_py'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docker) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docker) by extension 'ignore'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docker) by extension 'ignore_ament_install'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docker) by extensions ['colcon_pkg']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docker) by extension 'colcon_pkg'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docker) by extensions ['colcon_meta']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docker) by extension 'colcon_meta'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docker) by extensions ['ros']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docker) by extension 'ros'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docker) by extensions ['cmake', 'python']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docker) by extension 'cmake'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docker) by extension 'python'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docker) by extensions ['python_setup_py']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docker) by extension 'python_setup_py'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docker/profiles) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docker/profiles) by extension 'ignore'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docker/profiles) by extension 'ignore_ament_install'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docker/profiles) by extensions ['colcon_pkg']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docker/profiles) by extension 'colcon_pkg'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docker/profiles) by extensions ['colcon_meta']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docker/profiles) by extension 'colcon_meta'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docker/profiles) by extensions ['ros']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docker/profiles) by extension 'ros'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docker/profiles) by extensions ['cmake', 'python']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docker/profiles) by extension 'cmake'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docker/profiles) by extension 'python'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docker/profiles) by extensions ['python_setup_py']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docker/profiles) by extension 'python_setup_py'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docs) by extension 'ignore'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docs) by extension 'ignore_ament_install'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docs) by extensions ['colcon_pkg']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docs) by extension 'colcon_pkg'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docs) by extensions ['colcon_meta']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docs) by extension 'colcon_meta'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docs) by extensions ['ros']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docs) by extension 'ros'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docs) by extensions ['cmake', 'python']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docs) by extension 'cmake'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docs) by extension 'python'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docs) by extensions ['python_setup_py']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docs) by extension 'python_setup_py'
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docs/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docs/assets) by extension 'ignore'
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docs/assets) by extension 'ignore_ament_install'
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docs/assets) by extensions ['colcon_pkg']
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docs/assets) by extension 'colcon_pkg'
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docs/assets) by extensions ['colcon_meta']
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docs/assets) by extension 'colcon_meta'
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docs/assets) by extensions ['ros']
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docs/assets) by extension 'ros'
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docs/assets) by extensions ['cmake', 'python']
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docs/assets) by extension 'cmake'
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docs/assets) by extension 'python'
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docs/assets) by extensions ['python_setup_py']
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/docs/assets) by extension 'python_setup_py'
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2) by extension 'ignore'
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2) by extension 'ignore_ament_install'
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2) by extensions ['colcon_pkg']
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2) by extension 'colcon_pkg'
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2) by extensions ['colcon_meta']
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2) by extension 'colcon_meta'
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2) by extensions ['ros']
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2) by extension 'ros'
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/linorobot2/linorobot2' with type 'ros.ament_cmake' and name 'linorobot2'[0m
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_base) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_base) by extension 'ignore'
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_base) by extension 'ignore_ament_install'
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_base) by extensions ['colcon_pkg']
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_base) by extension 'colcon_pkg'
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_base) by extensions ['colcon_meta']
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_base) by extension 'colcon_meta'
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_base) by extensions ['ros']
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_base) by extension 'ros'
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/linorobot2/linorobot2_base' with type 'ros.ament_cmake' and name 'linorobot2_base'[0m
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_bringup) by extension 'ignore'
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_bringup) by extension 'ignore_ament_install'
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_bringup) by extensions ['colcon_pkg']
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_bringup) by extension 'colcon_pkg'
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_bringup) by extensions ['colcon_meta']
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_bringup) by extension 'colcon_meta'
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_bringup) by extensions ['ros']
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_bringup) by extension 'ros'
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/linorobot2/linorobot2_bringup' with type 'ros.ament_cmake' and name 'linorobot2_bringup'[0m
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_description) by extension 'ignore'
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_description) by extension 'ignore_ament_install'
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_description) by extensions ['colcon_pkg']
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_description) by extension 'colcon_pkg'
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_description) by extensions ['colcon_meta']
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_description) by extension 'colcon_meta'
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_description) by extensions ['ros']
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_description) by extension 'ros'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/linorobot2/linorobot2_description' with type 'ros.ament_cmake' and name 'linorobot2_description'[0m
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_gazebo) by extension 'ignore'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_gazebo) ignored
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_navigation) by extension 'ignore'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_navigation) by extension 'ignore_ament_install'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_navigation) by extensions ['colcon_pkg']
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_navigation) by extension 'colcon_pkg'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_navigation) by extensions ['colcon_meta']
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_navigation) by extension 'colcon_meta'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_navigation) by extensions ['ros']
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/linorobot2/linorobot2_navigation) by extension 'ros'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/linorobot2/linorobot2_navigation' with type 'ros.ament_cmake' and name 'linorobot2_navigation'[0m
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/micro_ros_setup) by extension 'ignore'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/micro_ros_setup) by extension 'ignore_ament_install'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/micro_ros_setup) by extensions ['colcon_pkg']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/micro_ros_setup) by extension 'colcon_pkg'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/micro_ros_setup) by extensions ['colcon_meta']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/micro_ros_setup) by extension 'colcon_meta'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/micro_ros_setup) by extensions ['ros']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/micro_ros_setup) by extension 'ros'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'[0m
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros) by extension 'ignore'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros) by extension 'ignore_ament_install'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros) by extensions ['colcon_pkg']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros) by extension 'colcon_pkg'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros) by extensions ['colcon_meta']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros) by extension 'colcon_meta'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros) by extensions ['ros']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros) by extension 'ros'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros) by extensions ['cmake', 'python']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros) by extension 'cmake'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros) by extension 'python'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros) by extensions ['python_setup_py']
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros) by extension 'python_setup_py'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/drive_base) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/drive_base) by extension 'ignore'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/drive_base) by extension 'ignore_ament_install'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/drive_base) by extensions ['colcon_pkg']
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/drive_base) by extension 'colcon_pkg'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/drive_base) by extensions ['colcon_meta']
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/drive_base) by extension 'colcon_meta'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/drive_base) by extensions ['ros']
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/drive_base) by extension 'ros'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/drive_base) by extensions ['cmake', 'python']
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/drive_base) by extension 'cmake'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/drive_base) by extension 'python'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/drive_base) by extensions ['python_setup_py']
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/drive_base) by extension 'python_setup_py'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/drive_base/drive_base_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/drive_base/drive_base_msgs) by extension 'ignore'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/drive_base/drive_base_msgs) by extension 'ignore_ament_install'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/drive_base/drive_base_msgs) by extensions ['colcon_pkg']
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/drive_base/drive_base_msgs) by extension 'colcon_pkg'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/drive_base/drive_base_msgs) by extensions ['colcon_meta']
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/drive_base/drive_base_msgs) by extension 'colcon_meta'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/drive_base/drive_base_msgs) by extensions ['ros']
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/drive_base/drive_base_msgs) by extension 'ros'
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/uros/drive_base/drive_base_msgs' with type 'ros.ament_cmake' and name 'drive_base_msgs'[0m
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent) by extension 'ignore'
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent) by extensions ['ros']
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent) by extension 'ros'
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent) by extension 'cmake'
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent) by extension 'python'
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[0.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'[0m
+[0.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[0.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[0.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[0.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[0.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[0.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[0.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[0.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[0.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[0.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[0.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap) by extension 'python'
+[0.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[0.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[0.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[0.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[0.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[0.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[0.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[0.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro_ros_msgs) by extension 'ignore'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro_ros_msgs) by extensions ['ros']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/uros/micro_ros_msgs) by extension 'ros'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'[0m
+[0.269s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.269s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.269s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.269s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.269s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.284s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'drive_base_msgs' in 'src/uros/drive_base/drive_base_msgs'
+[0.284s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'linorobot2' in 'src/linorobot2/linorobot2'
+[0.284s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'linorobot2_base' in 'src/linorobot2/linorobot2_base'
+[0.284s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'linorobot2_description' in 'src/linorobot2/linorobot2_description'
+[0.284s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'linorobot2_navigation' in 'src/linorobot2/linorobot2_navigation'
+[0.284s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'micro_ros_setup' in 'src/micro_ros_setup'
+[0.284s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'sllidar_ros2' in 'sllidar_ros2'
+[0.284s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'linorobot2_bringup' in 'src/linorobot2/linorobot2_bringup'
+[0.284s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.284s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.285s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 333 installed packages in /opt/ros/humble[0m
+[0.286s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'micro_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/trucnv/Documents/robot_dev/linorobot2_ws/build/micro_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs', 'merge_install': False, 'path': '/home/trucnv/Documents/robot_dev/linorobot2_ws/src/uros/micro_ros_msgs', 'symlink_install': False, 'test_result_base': None}[0m
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_agent' build argument 'cmake_args' from command line to 'None'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_agent' build argument 'cmake_target' from command line to 'None'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_agent' build argument 'cmake_clean_first' from command line to 'False'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_agent' build argument 'cmake_force_configure' from command line to 'False'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_agent' build argument 'ament_cmake_args' from command line to 'None'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'micro_ros_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'micro_ros_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/trucnv/Documents/robot_dev/linorobot2_ws/build/micro_ros_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent', 'merge_install': False, 'path': '/home/trucnv/Documents/robot_dev/linorobot2_ws/src/uros/micro-ROS-Agent/micro_ros_agent', 'symlink_install': False, 'test_result_base': None}[0m
+[0.311s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.312s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.312s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/trucnv/Documents/robot_dev/linorobot2_ws/src/uros/micro_ros_msgs' with build type 'ament_cmake'
+[0.312s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/trucnv/Documents/robot_dev/linorobot2_ws/src/uros/micro_ros_msgs'
+[0.313s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.314s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.314s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.320s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/trucnv/Documents/robot_dev/linorobot2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/trucnv/Documents/robot_dev/linorobot2_ws/src/uros/micro_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs[0m
+[1.777s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/trucnv/Documents/robot_dev/linorobot2_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/trucnv/Documents/robot_dev/linorobot2_ws/src/uros/micro_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs[0m
+[1.777s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/trucnv/Documents/robot_dev/linorobot2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/trucnv/Documents/robot_dev/linorobot2_ws/build/micro_ros_msgs -- -j16 -l16[0m
+[3.663s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/trucnv/Documents/robot_dev/linorobot2_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/trucnv/Documents/robot_dev/linorobot2_ws/build/micro_ros_msgs -- -j16 -l16[0m
+[3.671s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/trucnv/Documents/robot_dev/linorobot2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/trucnv/Documents/robot_dev/linorobot2_ws/build/micro_ros_msgs[0m
+[3.718s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(micro_ros_msgs)
+[3.718s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/trucnv/Documents/robot_dev/linorobot2_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/trucnv/Documents/robot_dev/linorobot2_ws/build/micro_ros_msgs[0m
+[3.719s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs' for CMake module files
+[3.720s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs' for CMake config files
+[3.720s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[3.720s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[3.721s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[3.721s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[3.721s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/lib'
+[3.722s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[3.722s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[3.722s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[3.722s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[3.722s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/bin'
+[3.722s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[3.722s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/lib/python3.10/site-packages'
+[3.723s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/bin'
+[3.723s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[3.724s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[3.724s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[3.724s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[3.725s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[3.725s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[3.727s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(micro_ros_msgs)
+[3.727s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs' for CMake module files
+[3.727s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs' for CMake config files
+[3.727s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[3.728s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[3.728s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[3.728s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[3.728s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/lib'
+[3.728s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[3.728s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[3.729s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[3.729s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[3.729s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/bin'
+[3.729s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[3.729s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/lib/python3.10/site-packages'
+[3.729s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/bin'
+[3.730s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[3.730s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[3.730s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[3.731s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[3.731s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[3.731s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[3.731s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/trucnv/Documents/robot_dev/linorobot2_ws/src/uros/micro-ROS-Agent/micro_ros_agent' with build type 'ament_cmake'
+[3.731s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/trucnv/Documents/robot_dev/linorobot2_ws/src/uros/micro-ROS-Agent/micro_ros_agent'
+[3.731s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.731s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[3.738s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/trucnv/Documents/robot_dev/linorobot2_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/trucnv/Documents/robot_dev/linorobot2_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent[0m
+[4.197s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/trucnv/Documents/robot_dev/linorobot2_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/trucnv/Documents/robot_dev/linorobot2_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent[0m
+[4.198s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/trucnv/Documents/robot_dev/linorobot2_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/trucnv/Documents/robot_dev/linorobot2_ws/build/micro_ros_agent -- -j16 -l16[0m
+[27.242s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/trucnv/Documents/robot_dev/linorobot2_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/trucnv/Documents/robot_dev/linorobot2_ws/build/micro_ros_agent -- -j16 -l16[0m
+[27.245s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/trucnv/Documents/robot_dev/linorobot2_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/trucnv/Documents/robot_dev/linorobot2_ws/build/micro_ros_agent[0m
+[27.267s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(micro_ros_agent)
+[27.268s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent' for CMake module files
+[27.268s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/trucnv/Documents/robot_dev/linorobot2_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/trucnv/Documents/robot_dev/linorobot2_ws/build/micro_ros_agent[0m
+[27.269s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent' for CMake config files
+[27.269s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[27.270s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[27.272s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[27.273s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[27.273s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/lib'
+[27.273s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[27.274s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[27.274s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[27.274s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[27.274s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/bin'
+[27.275s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[27.275s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/lib/python3.10/site-packages'
+[27.275s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/bin'
+[27.275s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[27.276s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[27.277s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[27.277s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[27.278s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[27.278s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[27.279s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(micro_ros_agent)
+[27.279s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent' for CMake module files
+[27.279s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent' for CMake config files
+[27.280s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[27.280s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[27.280s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[27.280s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[27.281s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/lib'
+[27.281s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[27.281s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[27.281s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[27.281s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[27.282s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/bin'
+[27.282s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[27.282s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/lib/python3.10/site-packages'
+[27.282s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/bin'
+[27.282s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[27.283s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[27.283s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[27.283s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[27.283s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[27.284s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/trucnv/Documents/robot_dev/linorobot2_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[27.284s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[27.284s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[27.284s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[27.284s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[27.295s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[27.295s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[27.295s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[27.309s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[27.309s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/local_setup.ps1'
+[27.310s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/_local_setup_util_ps1.py'
+[27.311s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/setup.ps1'
+[27.312s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/local_setup.sh'
+[27.313s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/_local_setup_util_sh.py'
+[27.314s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/setup.sh'
+[27.315s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/local_setup.bash'
+[27.316s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/setup.bash'
+[27.317s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/local_setup.zsh'
+[27.317s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/setup.zsh'

@@ -1,0 +1,1 @@
+/home/trucnv/Documents/robot_dev/linorobot2_ws/build/linorobot2_gazebo/hook/linorobot2_gazebo.sh

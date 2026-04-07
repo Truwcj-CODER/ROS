@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing linorobot2_gazebo.egg-info/PKG-INFO
+writing dependency_links to linorobot2_gazebo.egg-info/dependency_links.txt
+writing entry points to linorobot2_gazebo.egg-info/entry_points.txt
+writing top-level names to linorobot2_gazebo.egg-info/top_level.txt
+reading manifest file 'linorobot2_gazebo.egg-info/SOURCES.txt'
+writing manifest file 'linorobot2_gazebo.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/trucnv/Documents/robot_dev/linorobot2_ws/install/linorobot2_gazebo/lib/python3.10/site-packages/linorobot2-gazebo.egg-link (link to .)
+Installing command_timeout script to /home/trucnv/Documents/robot_dev/linorobot2_ws/install/linorobot2_gazebo/lib/linorobot2_gazebo
+Installing create_worlds_from_maps script to /home/trucnv/Documents/robot_dev/linorobot2_ws/install/linorobot2_gazebo/lib/linorobot2_gazebo
+Installing image_to_gazebo script to /home/trucnv/Documents/robot_dev/linorobot2_ws/install/linorobot2_gazebo/lib/linorobot2_gazebo
+Installing map_to_gazebo script to /home/trucnv/Documents/robot_dev/linorobot2_ws/install/linorobot2_gazebo/lib/linorobot2_gazebo
+
+Installed /home/trucnv/Documents/robot_dev/linorobot2_ws/build/linorobot2_gazebo
+running symlink_data
+symbolically linking /home/trucnv/Documents/robot_dev/linorobot2_ws/build/linorobot2_gazebo/worlds/demo_world.sdf -> /home/trucnv/Documents/robot_dev/linorobot2_ws/install/linorobot2_gazebo/share/linorobot2_gazebo/worlds

@@ -1,0 +1,397 @@
+[0.155s] colcon DEBUG Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'linorobot2_gazebo']
+[0.155s] colcon DEBUG Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['linorobot2_gazebo'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x798e6162a680>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x798e61629fc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x798e61629fc0>>)
+[0.301s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) check parameters
+[0.301s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) check parameters
+[0.301s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) check parameters
+[0.301s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) check parameters
+[0.301s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) discover
+[0.301s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) discover
+[0.302s] colcon.colcon_core.package_discovery INFO Crawling recursively for packages in '/home/trucnv/Documents/robot_dev/linorobot2_ws'
+[0.302s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ignore'
+[0.302s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ignore_ament_install'
+[0.302s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['colcon_pkg']
+[0.302s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'colcon_pkg'
+[0.302s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['colcon_meta']
+[0.302s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'colcon_meta'
+[0.302s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['ros']
+[0.302s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ros'
+[0.309s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['cmake', 'python']
+[0.309s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'cmake'
+[0.309s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'python'
+[0.309s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['python_setup_py']
+[0.309s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'python_setup_py'
+[0.309s] colcon.colcon_core.package_identification Level 1 _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] colcon.colcon_core.package_identification Level 1 _identify(build) by extension 'ignore'
+[0.309s] colcon.colcon_core.package_identification Level 1 _identify(build) ignored
+[0.309s] colcon.colcon_core.package_identification Level 1 _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] colcon.colcon_core.package_identification Level 1 _identify(install) by extension 'ignore'
+[0.309s] colcon.colcon_core.package_identification Level 1 _identify(install) ignored
+[0.309s] colcon.colcon_core.package_identification Level 1 _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] colcon.colcon_core.package_identification Level 1 _identify(log) by extension 'ignore'
+[0.309s] colcon.colcon_core.package_identification Level 1 _identify(log) ignored
+[0.309s] colcon.colcon_core.package_identification Level 1 _identify(sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] colcon.colcon_core.package_identification Level 1 _identify(sllidar_ros2) by extension 'ignore'
+[0.310s] colcon.colcon_core.package_identification Level 1 _identify(sllidar_ros2) by extension 'ignore_ament_install'
+[0.310s] colcon.colcon_core.package_identification Level 1 _identify(sllidar_ros2) by extensions ['colcon_pkg']
+[0.310s] colcon.colcon_core.package_identification Level 1 _identify(sllidar_ros2) by extension 'colcon_pkg'
+[0.310s] colcon.colcon_core.package_identification Level 1 _identify(sllidar_ros2) by extensions ['colcon_meta']
+[0.310s] colcon.colcon_core.package_identification Level 1 _identify(sllidar_ros2) by extension 'colcon_meta'
+[0.310s] colcon.colcon_core.package_identification Level 1 _identify(sllidar_ros2) by extensions ['ros']
+[0.310s] colcon.colcon_core.package_identification Level 1 _identify(sllidar_ros2) by extension 'ros'
+[0.311s] colcon.colcon_core.package_identification DEBUG Package 'sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.311s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ignore'
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ignore_ament_install'
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['colcon_pkg']
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'colcon_pkg'
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['colcon_meta']
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'colcon_meta'
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['ros']
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ros'
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['cmake', 'python']
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'cmake'
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'python'
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['python_setup_py']
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'python_setup_py'
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2) by extension 'ignore'
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2) by extension 'ignore_ament_install'
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2) by extensions ['colcon_pkg']
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2) by extension 'colcon_pkg'
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2) by extensions ['colcon_meta']
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2) by extension 'colcon_meta'
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2) by extensions ['ros']
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2) by extension 'ros'
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2) by extensions ['cmake', 'python']
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2) by extension 'cmake'
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2) by extension 'python'
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2) by extensions ['python_setup_py']
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2) by extension 'python_setup_py'
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docker) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docker) by extension 'ignore'
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docker) by extension 'ignore_ament_install'
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docker) by extensions ['colcon_pkg']
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docker) by extension 'colcon_pkg'
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docker) by extensions ['colcon_meta']
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docker) by extension 'colcon_meta'
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docker) by extensions ['ros']
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docker) by extension 'ros'
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docker) by extensions ['cmake', 'python']
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docker) by extension 'cmake'
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docker) by extension 'python'
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docker) by extensions ['python_setup_py']
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docker) by extension 'python_setup_py'
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docker/profiles) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docker/profiles) by extension 'ignore'
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docker/profiles) by extension 'ignore_ament_install'
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docker/profiles) by extensions ['colcon_pkg']
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docker/profiles) by extension 'colcon_pkg'
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docker/profiles) by extensions ['colcon_meta']
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docker/profiles) by extension 'colcon_meta'
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docker/profiles) by extensions ['ros']
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docker/profiles) by extension 'ros'
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docker/profiles) by extensions ['cmake', 'python']
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docker/profiles) by extension 'cmake'
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docker/profiles) by extension 'python'
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docker/profiles) by extensions ['python_setup_py']
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docker/profiles) by extension 'python_setup_py'
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docs) by extension 'ignore'
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docs) by extension 'ignore_ament_install'
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docs) by extensions ['colcon_pkg']
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docs) by extension 'colcon_pkg'
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docs) by extensions ['colcon_meta']
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docs) by extension 'colcon_meta'
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docs) by extensions ['ros']
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docs) by extension 'ros'
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docs) by extensions ['cmake', 'python']
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docs) by extension 'cmake'
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docs) by extension 'python'
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docs) by extensions ['python_setup_py']
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docs) by extension 'python_setup_py'
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docs/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docs/assets) by extension 'ignore'
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docs/assets) by extension 'ignore_ament_install'
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docs/assets) by extensions ['colcon_pkg']
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docs/assets) by extension 'colcon_pkg'
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docs/assets) by extensions ['colcon_meta']
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docs/assets) by extension 'colcon_meta'
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docs/assets) by extensions ['ros']
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docs/assets) by extension 'ros'
+[0.314s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docs/assets) by extensions ['cmake', 'python']
+[0.314s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docs/assets) by extension 'cmake'
+[0.314s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docs/assets) by extension 'python'
+[0.314s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docs/assets) by extensions ['python_setup_py']
+[0.314s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/docs/assets) by extension 'python_setup_py'
+[0.314s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2) by extension 'ignore'
+[0.314s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2) by extension 'ignore_ament_install'
+[0.314s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2) by extensions ['colcon_pkg']
+[0.314s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2) by extension 'colcon_pkg'
+[0.314s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2) by extensions ['colcon_meta']
+[0.314s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2) by extension 'colcon_meta'
+[0.314s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2) by extensions ['ros']
+[0.314s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2) by extension 'ros'
+[0.314s] colcon.colcon_core.package_identification DEBUG Package 'src/linorobot2/linorobot2' with type 'ros.ament_cmake' and name 'linorobot2'
+[0.314s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_base) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_base) by extension 'ignore'
+[0.314s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_base) by extension 'ignore_ament_install'
+[0.314s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_base) by extensions ['colcon_pkg']
+[0.314s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_base) by extension 'colcon_pkg'
+[0.314s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_base) by extensions ['colcon_meta']
+[0.314s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_base) by extension 'colcon_meta'
+[0.314s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_base) by extensions ['ros']
+[0.314s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_base) by extension 'ros'
+[0.315s] colcon.colcon_core.package_identification DEBUG Package 'src/linorobot2/linorobot2_base' with type 'ros.ament_cmake' and name 'linorobot2_base'
+[0.315s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_bringup) by extension 'ignore'
+[0.315s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_bringup) by extension 'ignore_ament_install'
+[0.315s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_bringup) by extensions ['colcon_pkg']
+[0.315s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_bringup) by extension 'colcon_pkg'
+[0.315s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_bringup) by extensions ['colcon_meta']
+[0.315s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_bringup) by extension 'colcon_meta'
+[0.315s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_bringup) by extensions ['ros']
+[0.315s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_bringup) by extension 'ros'
+[0.315s] colcon.colcon_core.package_identification DEBUG Package 'src/linorobot2/linorobot2_bringup' with type 'ros.ament_cmake' and name 'linorobot2_bringup'
+[0.316s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_description) by extension 'ignore'
+[0.316s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_description) by extension 'ignore_ament_install'
+[0.316s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_description) by extensions ['colcon_pkg']
+[0.316s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_description) by extension 'colcon_pkg'
+[0.316s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_description) by extensions ['colcon_meta']
+[0.316s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_description) by extension 'colcon_meta'
+[0.316s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_description) by extensions ['ros']
+[0.316s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_description) by extension 'ros'
+[0.316s] colcon.colcon_core.package_identification DEBUG Package 'src/linorobot2/linorobot2_description' with type 'ros.ament_cmake' and name 'linorobot2_description'
+[0.316s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_gazebo) by extension 'ignore'
+[0.316s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_gazebo) by extension 'ignore_ament_install'
+[0.316s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_gazebo) by extensions ['colcon_pkg']
+[0.316s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_gazebo) by extension 'colcon_pkg'
+[0.317s] colcon.colcon_metadata.metadata.colcon_pkg INFO Setting name 'linorobot2_gazebo' of package 'src/linorobot2/linorobot2_gazebo' from colcon.pkg
+[0.317s] colcon.colcon_core.package_identification DEBUG Package 'src/linorobot2/linorobot2_gazebo' with type 'None' and name 'linorobot2_gazebo'
+[0.317s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_gazebo) by extensions ['colcon_meta']
+[0.317s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_gazebo) by extension 'colcon_meta'
+[0.317s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_gazebo) by extensions ['ros']
+[0.317s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_gazebo) by extension 'ros'
+[0.317s] colcon.colcon_core.package_identification DEBUG Package 'src/linorobot2/linorobot2_gazebo' with type 'ros.ament_python' and name 'linorobot2_gazebo'
+[0.317s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_navigation) by extension 'ignore'
+[0.318s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_navigation) by extension 'ignore_ament_install'
+[0.318s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_navigation) by extensions ['colcon_pkg']
+[0.318s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_navigation) by extension 'colcon_pkg'
+[0.318s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_navigation) by extensions ['colcon_meta']
+[0.318s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_navigation) by extension 'colcon_meta'
+[0.318s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_navigation) by extensions ['ros']
+[0.318s] colcon.colcon_core.package_identification Level 1 _identify(src/linorobot2/linorobot2_navigation) by extension 'ros'
+[0.318s] colcon.colcon_core.package_identification DEBUG Package 'src/linorobot2/linorobot2_navigation' with type 'ros.ament_cmake' and name 'linorobot2_navigation'
+[0.318s] colcon.colcon_core.package_identification Level 1 _identify(src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] colcon.colcon_core.package_identification Level 1 _identify(src/micro_ros_setup) by extension 'ignore'
+[0.318s] colcon.colcon_core.package_identification Level 1 _identify(src/micro_ros_setup) by extension 'ignore_ament_install'
+[0.318s] colcon.colcon_core.package_identification Level 1 _identify(src/micro_ros_setup) by extensions ['colcon_pkg']
+[0.318s] colcon.colcon_core.package_identification Level 1 _identify(src/micro_ros_setup) by extension 'colcon_pkg'
+[0.318s] colcon.colcon_core.package_identification Level 1 _identify(src/micro_ros_setup) by extensions ['colcon_meta']
+[0.318s] colcon.colcon_core.package_identification Level 1 _identify(src/micro_ros_setup) by extension 'colcon_meta'
+[0.318s] colcon.colcon_core.package_identification Level 1 _identify(src/micro_ros_setup) by extensions ['ros']
+[0.318s] colcon.colcon_core.package_identification Level 1 _identify(src/micro_ros_setup) by extension 'ros'
+[0.319s] colcon.colcon_core.package_identification DEBUG Package 'src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(src/uros) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(src/uros) by extension 'ignore'
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(src/uros) by extension 'ignore_ament_install'
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(src/uros) by extensions ['colcon_pkg']
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(src/uros) by extension 'colcon_pkg'
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(src/uros) by extensions ['colcon_meta']
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(src/uros) by extension 'colcon_meta'
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(src/uros) by extensions ['ros']
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(src/uros) by extension 'ros'
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(src/uros) by extensions ['cmake', 'python']
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(src/uros) by extension 'cmake'
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(src/uros) by extension 'python'
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(src/uros) by extensions ['python_setup_py']
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(src/uros) by extension 'python_setup_py'
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/drive_base) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/drive_base) by extension 'ignore'
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/drive_base) by extension 'ignore_ament_install'
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/drive_base) by extensions ['colcon_pkg']
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/drive_base) by extension 'colcon_pkg'
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/drive_base) by extensions ['colcon_meta']
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/drive_base) by extension 'colcon_meta'
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/drive_base) by extensions ['ros']
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/drive_base) by extension 'ros'
+[0.320s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/drive_base) by extensions ['cmake', 'python']
+[0.320s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/drive_base) by extension 'cmake'
+[0.320s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/drive_base) by extension 'python'
+[0.320s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/drive_base) by extensions ['python_setup_py']
+[0.320s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/drive_base) by extension 'python_setup_py'
+[0.320s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/drive_base/drive_base_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/drive_base/drive_base_msgs) by extension 'ignore'
+[0.320s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/drive_base/drive_base_msgs) by extension 'ignore_ament_install'
+[0.320s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/drive_base/drive_base_msgs) by extensions ['colcon_pkg']
+[0.320s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/drive_base/drive_base_msgs) by extension 'colcon_pkg'
+[0.320s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/drive_base/drive_base_msgs) by extensions ['colcon_meta']
+[0.320s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/drive_base/drive_base_msgs) by extension 'colcon_meta'
+[0.320s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/drive_base/drive_base_msgs) by extensions ['ros']
+[0.320s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/drive_base/drive_base_msgs) by extension 'ros'
+[0.321s] colcon.colcon_core.package_identification DEBUG Package 'src/uros/drive_base/drive_base_msgs' with type 'ros.ament_cmake' and name 'drive_base_msgs'
+[0.321s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent) by extension 'ignore'
+[0.321s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[0.321s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[0.321s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[0.321s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[0.321s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[0.321s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent) by extensions ['ros']
+[0.321s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent) by extension 'ros'
+[0.322s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[0.322s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent) by extension 'cmake'
+[0.322s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent) by extension 'python'
+[0.322s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[0.322s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[0.322s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[0.322s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[0.322s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[0.322s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[0.322s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[0.322s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[0.322s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[0.322s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[0.322s] colcon.colcon_core.package_identification DEBUG Package 'src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap) by extension 'python'
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[0.324s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[0.324s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[0.324s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[0.324s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[0.324s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro_ros_msgs) by extension 'ignore'
+[0.324s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[0.324s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[0.324s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[0.324s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[0.324s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[0.324s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro_ros_msgs) by extensions ['ros']
+[0.324s] colcon.colcon_core.package_identification Level 1 _identify(src/uros/micro_ros_msgs) by extension 'ros'
+[0.324s] colcon.colcon_core.package_identification DEBUG Package 'src/uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[0.324s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) using defaults
+[0.324s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) discover
+[0.324s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) using defaults
+[0.324s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) discover
+[0.324s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) using defaults
+[0.335s] colcon.colcon_metadata.metadata.colcon_pkg INFO Updating descriptor of package 'src/linorobot2/linorobot2_gazebo' from colcon.pkg: {'name': 'linorobot2_gazebo', 'hooks': ['share/linorobot2_gazebo/hook/linorobot2_gazebo.sh']}
+[0.337s] colcon.colcon_core.package_selection INFO Skipping not selected package 'drive_base_msgs' in 'src/uros/drive_base/drive_base_msgs'
+[0.337s] colcon.colcon_core.package_selection INFO Skipping not selected package 'linorobot2' in 'src/linorobot2/linorobot2'
+[0.337s] colcon.colcon_core.package_selection INFO Skipping not selected package 'linorobot2_base' in 'src/linorobot2/linorobot2_base'
+[0.337s] colcon.colcon_core.package_selection INFO Skipping not selected package 'linorobot2_description' in 'src/linorobot2/linorobot2_description'
+[0.337s] colcon.colcon_core.package_selection INFO Skipping not selected package 'linorobot2_navigation' in 'src/linorobot2/linorobot2_navigation'
+[0.337s] colcon.colcon_core.package_selection INFO Skipping not selected package 'micro_ros_msgs' in 'src/uros/micro_ros_msgs'
+[0.337s] colcon.colcon_core.package_selection INFO Skipping not selected package 'micro_ros_setup' in 'src/micro_ros_setup'
+[0.337s] colcon.colcon_core.package_selection INFO Skipping not selected package 'sllidar_ros2' in 'sllidar_ros2'
+[0.337s] colcon.colcon_core.package_selection INFO Skipping not selected package 'micro_ros_agent' in 'src/uros/micro-ROS-Agent/micro_ros_agent'
+[0.337s] colcon.colcon_core.package_selection INFO Skipping not selected package 'linorobot2_bringup' in 'src/linorobot2/linorobot2_bringup'
+[0.337s] colcon.colcon_core.package_discovery Level 1 discover_packages(prefix_path) check parameters
+[0.337s] colcon.colcon_core.package_discovery Level 1 discover_packages(prefix_path) discover
+[0.339s] colcon.colcon_installed_package_information.package_discovery DEBUG Found 367 installed packages in /opt/ros/humble
+[0.340s] colcon.colcon_core.package_discovery Level 1 discover_packages(prefix_path) using defaults
+[0.365s] colcon.colcon_core.verb Level 5 set package 'linorobot2_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.365s] colcon.colcon_core.verb Level 5 set package 'linorobot2_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.365s] colcon.colcon_core.verb Level 5 set package 'linorobot2_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.365s] colcon.colcon_core.verb Level 5 set package 'linorobot2_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.365s] colcon.colcon_core.verb Level 5 set package 'linorobot2_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.365s] colcon.colcon_core.verb Level 5 set package 'linorobot2_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.365s] colcon.colcon_core.verb Level 5 set package 'linorobot2_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.365s] colcon.colcon_core.verb Level 5 set package 'linorobot2_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.365s] colcon.colcon_core.verb Level 5 set package 'linorobot2_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.365s] colcon.colcon_core.verb DEBUG Building package 'linorobot2_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/trucnv/Documents/robot_dev/linorobot2_ws/build/linorobot2_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/linorobot2_gazebo', 'merge_install': False, 'path': '/home/trucnv/Documents/robot_dev/linorobot2_ws/src/linorobot2/linorobot2_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.365s] colcon.colcon_core.executor INFO Executing jobs using 'parallel' executor
+[0.366s] colcon.colcon_parallel_executor.executor.parallel DEBUG run_until_complete
+[0.366s] colcon.colcon_ros.task.ament_python.build INFO Building ROS package in '/home/trucnv/Documents/robot_dev/linorobot2_ws/src/linorobot2/linorobot2_gazebo' with build type 'ament_python'
+[0.366s] colcon.colcon_core.shell Level 1 create_environment_hook('linorobot2_gazebo', 'ament_prefix_path')
+[0.368s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.368s] colcon.colcon_core.shell INFO Creating environment hook '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/linorobot2_gazebo/share/linorobot2_gazebo/hook/ament_prefix_path.ps1'
+[0.383s] colcon.colcon_core.shell INFO Creating environment descriptor '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/linorobot2_gazebo/share/linorobot2_gazebo/hook/ament_prefix_path.dsv'
+[0.383s] colcon.colcon_core.shell INFO Creating environment hook '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/linorobot2_gazebo/share/linorobot2_gazebo/hook/ament_prefix_path.sh'
+[0.384s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.384s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[0.613s] colcon.colcon_core.task.python.build INFO Building Python package in '/home/trucnv/Documents/robot_dev/linorobot2_ws/src/linorobot2/linorobot2_gazebo'
+[0.613s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.613s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[1.088s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/trucnv/Documents/robot_dev/linorobot2_ws/build/linorobot2_gazebo': PYTHONPATH=/home/trucnv/Documents/robot_dev/linorobot2_ws/build/linorobot2_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trucnv/Documents/robot_dev/linorobot2_ws/install/linorobot2_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/trucnv/Documents/robot_dev/linorobot2_ws/build/linorobot2_gazebo/build --no-deps symlink_data
+[1.453s] colcon.colcon_core.shell Level 1 create_environment_hook('linorobot2_gazebo', 'pythonpath_develop')
+[1.453s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/trucnv/Documents/robot_dev/linorobot2_ws/build/linorobot2_gazebo' returned '0': PYTHONPATH=/home/trucnv/Documents/robot_dev/linorobot2_ws/build/linorobot2_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trucnv/Documents/robot_dev/linorobot2_ws/install/linorobot2_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/trucnv/Documents/robot_dev/linorobot2_ws/build/linorobot2_gazebo/build --no-deps symlink_data
+[1.454s] colcon.colcon_core.shell INFO Creating environment hook '/home/trucnv/Documents/robot_dev/linorobot2_ws/build/linorobot2_gazebo/share/linorobot2_gazebo/hook/pythonpath_develop.ps1'
+[1.454s] colcon.colcon_core.shell INFO Creating environment descriptor '/home/trucnv/Documents/robot_dev/linorobot2_ws/build/linorobot2_gazebo/share/linorobot2_gazebo/hook/pythonpath_develop.dsv'
+[1.455s] colcon.colcon_core.shell INFO Creating environment hook '/home/trucnv/Documents/robot_dev/linorobot2_ws/build/linorobot2_gazebo/share/linorobot2_gazebo/hook/pythonpath_develop.sh'
+[1.515s] colcon.colcon_core.environment Level 1 checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/linorobot2_gazebo' for CMake module files
+[1.516s] colcon.colcon_core.environment Level 1 checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/linorobot2_gazebo' for CMake config files
+[1.518s] colcon.colcon_core.environment Level 1 checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/linorobot2_gazebo/lib'
+[1.518s] colcon.colcon_core.environment Level 1 checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/linorobot2_gazebo/bin'
+[1.518s] colcon.colcon_core.environment Level 1 checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/linorobot2_gazebo/lib/pkgconfig/linorobot2_gazebo.pc'
+[1.519s] colcon.colcon_core.environment Level 1 checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/linorobot2_gazebo/lib/python3.10/site-packages'
+[1.519s] colcon.colcon_core.shell Level 1 create_environment_hook('linorobot2_gazebo', 'pythonpath')
+[1.519s] colcon.colcon_core.shell INFO Creating environment hook '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/linorobot2_gazebo/share/linorobot2_gazebo/hook/pythonpath.ps1'
+[1.520s] colcon.colcon_core.shell INFO Creating environment descriptor '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/linorobot2_gazebo/share/linorobot2_gazebo/hook/pythonpath.dsv'
+[1.521s] colcon.colcon_core.shell INFO Creating environment hook '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/linorobot2_gazebo/share/linorobot2_gazebo/hook/pythonpath.sh'
+[1.522s] colcon.colcon_core.environment Level 1 checking '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/linorobot2_gazebo/bin'
+[1.522s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(linorobot2_gazebo)
+[1.523s] colcon.colcon_core.shell INFO Creating package script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/linorobot2_gazebo/share/linorobot2_gazebo/package.ps1'
+[1.525s] colcon.colcon_core.shell INFO Creating package descriptor '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/linorobot2_gazebo/share/linorobot2_gazebo/package.dsv'
+[1.527s] colcon.colcon_core.shell INFO Creating package script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/linorobot2_gazebo/share/linorobot2_gazebo/package.sh'
+[1.528s] colcon.colcon_core.shell INFO Creating package script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/linorobot2_gazebo/share/linorobot2_gazebo/package.bash'
+[1.529s] colcon.colcon_core.shell INFO Creating package script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/linorobot2_gazebo/share/linorobot2_gazebo/package.zsh'
+[1.531s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/home/trucnv/Documents/robot_dev/linorobot2_ws/install/linorobot2_gazebo/share/colcon-core/packages/linorobot2_gazebo)
+[1.531s] colcon.colcon_parallel_executor.executor.parallel DEBUG closing loop
+[1.532s] colcon.colcon_parallel_executor.executor.parallel DEBUG loop closed
+[1.532s] colcon.colcon_parallel_executor.executor.parallel DEBUG run_until_complete finished with '0'
+[1.532s] colcon.colcon_core.event_reactor DEBUG joining thread
+[1.538s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.539s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.539s] colcon.colcon_notification.desktop_notification INFO Sending desktop notification using 'notify2'
+[1.556s] colcon.colcon_core.event_reactor DEBUG joined thread
+[1.556s] colcon.colcon_core.shell INFO Creating prefix script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/local_setup.ps1'
+[1.558s] colcon.colcon_core.shell INFO Creating prefix util module '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/_local_setup_util_ps1.py'
+[1.560s] colcon.colcon_core.shell INFO Creating prefix chain script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/setup.ps1'
+[1.561s] colcon.colcon_core.shell INFO Creating prefix script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/local_setup.sh'
+[1.562s] colcon.colcon_core.shell INFO Creating prefix util module '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/_local_setup_util_sh.py'
+[1.563s] colcon.colcon_core.shell INFO Creating prefix chain script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/setup.sh'
+[1.564s] colcon.colcon_core.shell INFO Creating prefix script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/local_setup.bash'
+[1.564s] colcon.colcon_core.shell INFO Creating prefix chain script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/setup.bash'
+[1.565s] colcon.colcon_core.shell INFO Creating prefix script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/local_setup.zsh'
+[1.566s] colcon.colcon_core.shell INFO Creating prefix chain script '/home/trucnv/Documents/robot_dev/linorobot2_ws/install/setup.zsh'

@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a203566728f4d93e7e6e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "drive_base_msgs__py",
+					"jsonFile" : "directory-drive_base_msgs__py-1c90856a635f8761549e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/trucnv/Documents/robot_dev/linorobot2_ws/build/drive_base_msgs/drive_base_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "drive_base_msgs__rs",
+					"jsonFile" : "directory-drive_base_msgs__rs-b4b20762bc007955a005.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/trucnv/Documents/robot_dev/linorobot2_ws/build/drive_base_msgs/drive_base_msgs__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "drive_base_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_drive_base_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_drive_base_msgs_egg-78dc733b1fb89e730f6e.json",
+					"name" : "ament_cmake_python_build_drive_base_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_drive_base_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_drive_base_msgs-47ead5805f07feb3d14c.json",
+					"name" : "ament_cmake_python_symlink_drive_base_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs-59e58ed83704565a96a5.json",
+					"name" : "drive_base_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__cpp-43d6d11abbdc9675f8fa.json",
+					"name" : "drive_base_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "drive_base_msgs__py::@a7b11c69a8f866d1b5b1",
+					"jsonFile" : "target-drive_base_msgs__py-263cd9badc8ea4763c1c.json",
+					"name" : "drive_base_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_generator_c-ab2ee6b21714a2644536.json",
+					"name" : "drive_base_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_generator_py-d47b1ab6a923c6c0dd8e.json",
+					"name" : "drive_base_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_typesupport_c-df323b3191b2a21247cf.json",
+					"name" : "drive_base_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_typesupport_c__pyext-e96588e81d201798dfa8.json",
+					"name" : "drive_base_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_typesupport_cpp-2f5e07ffce5ac80679e0.json",
+					"name" : "drive_base_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_typesupport_fastrtps_c-8e747071137d27ca32fe.json",
+					"name" : "drive_base_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_typesupport_fastrtps_c__pyext-f20f9026a7d86e2afca3.json",
+					"name" : "drive_base_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_typesupport_fastrtps_cpp-97c485ba271b7e9b2fe9.json",
+					"name" : "drive_base_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_typesupport_introspection_c-5902ea2a12f47116557a.json",
+					"name" : "drive_base_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_typesupport_introspection_c__pyext-d492ef2b00a8ae18e20b.json",
+					"name" : "drive_base_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs__rosidl_typesupport_introspection_cpp-08d6eeb34de227d0d5df.json",
+					"name" : "drive_base_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "drive_base_msgs__rs::@27be71e4a76289f9ba96",
+					"jsonFile" : "target-drive_base_msgs__rs-862af3ddbef1004be502.json",
+					"name" : "drive_base_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_base_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_base_msgs_uninstall-ba42e01346d53357e2be.json",
+					"name" : "drive_base_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-52c7e105ff66b7041192.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/trucnv/Documents/robot_dev/linorobot2_ws/build/drive_base_msgs",
+		"source" : "/home/trucnv/Documents/robot_dev/linorobot2_ws/src/uros/drive_base/drive_base_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

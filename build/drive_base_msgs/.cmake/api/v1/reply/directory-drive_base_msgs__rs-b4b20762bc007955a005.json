@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "drive_base_msgs__rs",
+		"source" : "/home/trucnv/Documents/robot_dev/linorobot2_ws/build/drive_base_msgs/drive_base_msgs__rs"
+	}
+}
